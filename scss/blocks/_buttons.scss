@@ -1,0 +1,79 @@
+.button,
+a.button {
+  display: inline-block;
+  padding: 9px 19px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 80px;
+  color: #000000;
+  border: 1px solid #000000;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
+
+.button--dark,
+a.button--dark {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+
+  &:hover {
+    background-color: #333333;
+  }
+}
+
+.button--green,
+a.button--green {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #00ae6c;
+  border: none;
+
+  &:hover {
+    background-color: lighten(#00ae6c, 10%);
+  }
+}
+
+.button--blue,
+a.button--blue {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #039be5;
+  border: none;
+
+  &:hover {
+    background-color: lighten(#039be5, 10%);
+  }
+}
+
+.button--light,
+a.button--light {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+
+  &:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
+
+.button--tg,
+a.button--tg {
+  padding-left: 54px;
+  background-image: url('./../img/icons/telegram.svg');
+  background-repeat: no-repeat;
+  background-position: 20px 50%;
+}
+
+.button--whatsapp,
+a.button--whatsapp {
+  padding-left: 50px;
+  background-image: url('./../img/icons/whatsapp.svg');
+  background-repeat: no-repeat;
+  background-position: 20px 50%;
+}
